@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    font-family: tahoma,arial,\5b8b\4f53,sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+.none {
+    display: none !important;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+header {
+    height: 45px;
+    width: 100%;
+    background: -webkit-linear-gradient(top,  rgb(92, 119, 179), rgb(66, 87, 152));
+    background: linear-gradient(top,  rgb(92, 119, 179), rgb(66, 87, 152));
+    position: relative;
+    box-shadow: 0 1px 2px rgb(66, 87, 152);
+}
+
+header .logo {
+    display: block;
+    width: 90px;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+header .infoBtn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    text-decoration: none;
+    color: #eee;
+    font-size: 16px;
+    padding: 0 5px;
+    line-height: 30px;
+    height: 30px;
+    background-color: rgb(56, 58, 123);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+section.activeInfo {
+    padding: 0 10px;
+    box-shadow: 0 1px 10px #333;
+}
+
+p.name {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.shop, .address, .time {
+    line-height: 20px;
+    color: #444;
+}
+
+.address {
+    padding-left: 20px;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.joinBtn, .notJoinBtn {
+    text-decoration: none;
+    color: #eee;
+    font-size: 16px;
+    padding: 5px 5px;
+    line-height: 30px;
+    height: 30px;
+    width: 105px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #777;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.joinBtn {
+    float: left;
+    background-color: rgb(49, 49, 152);
+    margin-left: 20px;
+}
+
+.notJoinBtn {
+    float: right;
+    background-color: rgb(111, 137, 190);
+    margin-right: 20px;
+}
+
+section.member {
+    background-color: rgb(216, 220, 230);
+    margin-top: 3px;
+    padding: 10px 10px;
+}
+
+section.member p.banner {
+    background-color: rgb(248, 248, 248);
+    line-height: 25px;
+    font-size: 15px;
+    height: 25px;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px 3px 0 0;
+}
+
+ul.member-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-radius: 0 0 3px 3px;
+}
+
+ul.member-list li {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 5px;
+}
+
+ul.member-list li span {
+    line-height: 50px;
+}
+
+ul.member-list li div.avatarWrapper {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+img.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+img.selected {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+ul.member-list .username {
+    margin-left: 10px;
+    color: #5f7580;
+}
+
+ul.member-list .state {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+
+.installApp {
+    text-decoration: none;
+    color: #eee;
+    font-size: 16px;
+    padding: 5px 5px;
+    line-height: 30px;
+    height: 30px;
+    width: 210px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #777;
+    text-align: center;
+    margin: 10px auto;
+    background-color: rgb(49, 49, 152);
+    display: block;
+}
+
+footer {
+    background-color: rgb(216, 220, 230);
+    text-align: center;
+    color: #999;
+}
